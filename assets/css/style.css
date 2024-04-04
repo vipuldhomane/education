@@ -854,9 +854,14 @@ ul {
 }
 .single_tp {
   margin-bottom: 30px;
-  background: #fff;
+  background: linear-gradient(
+    344deg,
+    rgba(187, 218, 230, 1) 22%,
+    rgba(110, 191, 222, 1) 91%
+  );
   padding: 40px;
   box-shadow: 10px 15px 18px rgba(23, 23, 36, 0.03);
+  border-radius: 25px;
 }
 .single_tp span {
   width: 60px;
