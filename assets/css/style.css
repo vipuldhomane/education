@@ -28,6 +28,20 @@ Version      : 1.0
 * 01.GENERAL STYLE
 * ----------------------------------------------------------------------------------------
 */
+iframe {
+  margin-top: 50px;
+  display: block;
+  max-width: 100%; /* Make iframe responsive */
+  height: 700; /* Auto-adjust height */
+  margin: 0 auto; /* Center iframe horizontally */
+}
+
+/* Media query for tablets and larger devices */
+@media screen and (min-width: 768px) {
+  iframe {
+    width: 60%; /* Set width to 60% on tablets and larger devices */
+  }
+}
 body {
   color: #6d7193;
   font-family: "Inria Sans", sans-serif;
