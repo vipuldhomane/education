@@ -36,10 +36,13 @@ iframe {
   margin: 0 auto; /* Center iframe horizontally */
 }
 
+.headingBanner {
+}
+
 /* Media query for tablets and larger devices */
 @media screen and (min-width: 768px) {
   iframe {
-    width: 60%; /* Set width to 60% on tablets and larger devices */
+    /* width: 60%; Set width to 60% on tablets and larger devices */
   }
 }
 body {
@@ -526,7 +529,7 @@ ul {
   font-weight: 700;
   letter-spacing: 0;
   line-height: 74px;
-  padding-top: 250px;
+  padding-top: 50px;
   margin-bottom: 20px;
 }
 @media only screen and (max-width: 960px) {
@@ -538,14 +541,14 @@ ul {
 }
 @media only screen and (max-width: 768px) {
   .hero-text h1 {
-    padding-top: 150px;
+    padding-top: 20px;
     font-size: 64px;
     line-height: 74px;
   }
 }
 @media only screen and (max-width: 480px) {
   .hero-text h1 {
-    padding-top: 150px;
+    padding-top: 20px;
     font-size: 34px;
     line-height: 44px;
   }
