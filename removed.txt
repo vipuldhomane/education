@@ -1,0 +1,60 @@
+   <section class="top_cat__area section-padding">
+      <div class="container">
+        <div class="section-title text-center">
+          <h2>What skills you will learn</h2>
+          <p>Learn industry relevant skills.</p>
+        </div>
+        <div class="row">
+          <div
+            class="col-lg-12 col-sm-12 col-xs-12 wow fadeInUp"
+            data-wow-duration="1s"
+            data-wow-delay="0.1s"
+            data-wow-offset="0"
+          >
+            <div class="cat_list">
+              <ul>
+                <li>
+                  <a href="#"
+                    ><img src="assets/img/e1.png" alt="category-image" />
+                    Salesforce Platform Fundamentals</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="assets/img/e2.png" alt="category-image" />
+                    Salesforce Administrator Skills</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="assets/img/e3.png" alt="category-image" />
+                    Salesforce Developer Skills</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="assets/img/e4.png" alt="category-image" />
+                    Salesforce Lightning Components</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="assets/img/e5.png" alt="category-image" />
+                    Salesforce Integration Skills</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="assets/img/e6.png" alt="category-image" /> And
+                    Much More</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!--- END COL -->
+        </div>
+        <!--- END ROW -->
+      </div>
+      <!--- END CONTAINER -->
+    </section>

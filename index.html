@@ -15,7 +15,7 @@
       content="agency, business, corporate, creative, html5, modern, multipurpose, One Page, parallax, startup"
     />
     <!-- SITE TITLE -->
-    <title>Cloud Intellect : #1 Salesforce Training Institute in Nagpur</title>
+    <title>Cloud Intellect :Top Salesforce Training Institute in India</title>
     <!-- Latest Bootstrap min CSS -->
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
     <!-- Google Font -->
@@ -40,13 +40,63 @@
     <!-- animate CSS -->
     <link rel="stylesheet" href="assets/css/animate.css" />
     <!-- Style CSS -->
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="./style.css" />
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <!-- Meta Pixel Code -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+        "https://connect.facebook.net/en_US/fbevents.js"
+      );
+      fbq("init", "975575364020283");
+      fbq("track", "PageView");
+    </script>
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=975575364020283&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-94PLMPP0WS"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-94PLMPP0WS");
+    </script>
+    <!-- End Meta Pixel Code -->
   </head>
 
   <body data-spy="scroll" data-offset="80">
@@ -94,20 +144,29 @@
       class="ab_content text-center headingBanner row"
       style="margin-top: 10px"
     >
-      <div class="col-md-8">
+      <div class="col-md-7">
         <img
-          src="assets/img/ciPost.jpg"
+          src="assets/img/mainImg/ciHeader.jpg"
           alt="ci post"
           srcset=""
           width="100%"
           height="auto"
         />
       </div>
-      <div class="col-md-4">
-        <iframe
+      <div class="col-md-5">
+        <!-- <iframe
           src="https://docs.google.com/forms/d/e/1FAIpQLSeRGL8Ru1lerccHnm53xwoAB-rC4-AYK3aF1TxJ_2TF7HPKBg/viewform?embedded=true"
           width="400"
           height="800"
+          frameborder="0"
+          marginheight="0"
+          marginwidth="0"
+          >Loading…</iframe
+        > -->
+        <iframe
+          src="https://mck07w3zks39mllk47skrkhz4h94.pub.sfmc-content.com/em5u51okyq5"
+          width="400"
+          height="580"
           frameborder="0"
           marginheight="0"
           marginwidth="0"
@@ -116,15 +175,47 @@
       </div>
     </div>
 
-    <div class="container text-center mx-auto">
+    <section
+      class="top_cat__area"
+      style="
+        background-image: url(assets/img/bg/shape-1.png);
+        background-size: cover;
+        background-position: center center;
+      "
+    >
+      <div class="section-title">
+        <h2 class="text-center hero-text">
+          How to Become a Great <b> Salesforce Developer</b>
+        </h2>
+        <p class="text-center">
+          Learn from the Top Salesforce Developers of the country
+        </p>
+        <p class=""><b>Starts</b> April 13th, 2024</p>
+        <p class=""><b>Time</b> 7PM to 8.30PM, <b> Duration</b> 1.30hrs</p>
+        <!-- <p class=""></p> -->
+        <p style="">
+          Looking to boost your career as a <b> Salesforce developer</b>? Our
+          program, designed specifically for Salesforce professionals, offers
+          unique benefits such as <b> one-on-one mentorship</b>, experienced
+          instructors, and a detailed curriculum. Join our complimentary session
+          with <b>Sumit Mahakalkar</b> and discover how our course meets the
+          specific needs of those in the Salesforce field. Plus, seize the
+          opportunity to win exclusive CloudIntellect goodies just for
+          participating! Whether you're transitioning into or advancing within
+          the Salesforce ecosystem, this is an opportunity you shouldn't miss.
+          Reserve your spot in our class today!
+        </p>
+      </div>
+    </section>
+    <div class="container mx-auto my-auto">
       <div class="row">
         <div class="col-lg-12 col-sm-12 col-xs-12">
-          <div class="hero-text ht_top text-center">
+          <div class="hero-text ht_top">
             <h1 class="text-center">
               Launch Your Tech Career with Our Latest
               <span>Salesforce</span> Batch
             </h1>
-            <p class="text-center mx-auto">
+            <p class="mx-auto">
               Dive into comprehensive Salesforce training designed to propel you
               into a successful tech career. Enroll now and take the first step
               towards a thriving tech career with our expert-led Salesforce
@@ -191,7 +282,7 @@
 
     <!-- START CATEGORY -->
     <section
-      class="top_cat__area section-padding"
+      class="top_cat__area my-auto"
       style="
         background-image: url(assets/img/bg/shape-1.png);
         background-size: cover;
@@ -199,9 +290,9 @@
       "
     >
       <div class="container">
-        <div class="section-title text-center">
-          <h2>Start your journey With us</h2>
-          <p>
+        <div class="section-title">
+          <h2 class="text-center">Start your journey With us</h2>
+          <p class="mx-auto hero-text">
             Kickstart your journey with us. Hone your skills. Embrace tailored
             learning. Join a team driven by excellence. Let's shape tomorrow!
           </p>
@@ -220,7 +311,7 @@
           </div>
           <!-- END COL -->
           <div
-            class="col-lg-3 col-sm-6 col-xs-12 wow fadeInUp rounded"
+            class="col-lg-3 col-sm-6 col-xs-12 wow fadeInUp"
             data-wow-duration="1s"
             data-wow-delay="0.3s"
             data-wow-offset="0"
@@ -265,7 +356,7 @@
     <!-- END CATEGORY -->
 
     <!-- START ABOUT US -->
-    <section class="ab_area section-padding">
+    <section class="ab_area my-auto">
       <div class="container">
         <div class="row">
           <div
@@ -276,7 +367,7 @@
           >
             <div class="ab_img">
               <img
-                src="assets/img/mainImg/chooseus.jpg"
+                src="assets/img/mainImg/ciMentors.jpg"
                 class="img-fluid"
                 alt="image"
               />
@@ -290,7 +381,7 @@
             data-wow-offset="0"
           >
             <div class="ab_content">
-              <h2>Why Choose Us: #1 Salesforce Training Institute in Nagpur</h2>
+              <h2>Why Choose Us: Top Salesforce Training Institute in India</h2>
               <p>
                 Cloud Intellect is founded with a sole goal of offering the Best
                 Salesforce Training to youth(Freshers/Graduates) in Nagpur, with
@@ -342,66 +433,7 @@
     <!-- END ABOUT US -->
 
     <!-- START CATEGORY -->
-    <section class="top_cat__area section-padding">
-      <div class="container">
-        <div class="section-title text-center">
-          <h2>What skills you will learn</h2>
-          <p>Learn industry relevant skills.</p>
-        </div>
-        <div class="row">
-          <div
-            class="col-lg-12 col-sm-12 col-xs-12 wow fadeInUp"
-            data-wow-duration="1s"
-            data-wow-delay="0.1s"
-            data-wow-offset="0"
-          >
-            <div class="cat_list">
-              <ul>
-                <li>
-                  <a href="#"
-                    ><img src="assets/img/e1.png" alt="category-image" />
-                    Salesforce Platform Fundamentals</a
-                  >
-                </li>
-                <li>
-                  <a href="#"
-                    ><img src="assets/img/e2.png" alt="category-image" />
-                    Salesforce Administrator Skills</a
-                  >
-                </li>
-                <li>
-                  <a href="#"
-                    ><img src="assets/img/e3.png" alt="category-image" />
-                    Salesforce Developer Skills</a
-                  >
-                </li>
-                <li>
-                  <a href="#"
-                    ><img src="assets/img/e4.png" alt="category-image" />
-                    Salesforce Lightning Components</a
-                  >
-                </li>
-                <li>
-                  <a href="#"
-                    ><img src="assets/img/e5.png" alt="category-image" />
-                    Salesforce Integration Skills</a
-                  >
-                </li>
-                <li>
-                  <a href="#"
-                    ><img src="assets/img/e6.png" alt="category-image" /> And
-                    Much More</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-          <!--- END COL -->
-        </div>
-        <!--- END ROW -->
-      </div>
-      <!--- END CONTAINER -->
-    </section>
+
     <!-- END CATEGORY -->
 
     <!-- START COURSE -->
@@ -413,35 +445,8 @@
     <!-- END TEAM -->
 
     <!-- START PROMO -->
-    <section
-      class="top_cat__area section-padding"
-      style="
-        background-image: url(assets/img/bg/shape-1.png);
-        background-size: cover;
-        background-position: center center;
-      "
-    >
-      <div class="section-title text-center">
-        <h2>How to Become a Great Salesforce Developer</h2>
-        <p>Learn from the Top Salesforce Developers of the country</p>
-        <p><b>Starts</b> April 13th</p>
-        <p><b>Time</b> 7PM to 8.30PM</p>
-        <p><b> Duration</b> 1.30hrs</p>
-        <p style="width: 90%; text-align-last: center; margin: auto">
-          Looking to boost your career as a Salesforce developer? Our program,
-          designed specifically for Salesforce professionals, offers unique
-          benefits such as one-on-one mentorship, experienced instructors, and a
-          detailed curriculum. Join our complimentary session with Sumit
-          Mahakalkar and discover how our course meets the specific needs of
-          those in the Salesforce field. Plus, seize the opportunity to win
-          exclusive CloudIntellect goodies just for participating! Whether
-          you're transitioning into or advancing within the Salesforce
-          ecosystem, this is an opportunity you shouldn't miss. Reserve your
-          spot in our class today!
-        </p>
-      </div>
-    </section>
-    <section class="ab_area">
+
+    <section class="ab_area my-auto">
       <div class="container">
         <div class="row">
           <div
@@ -583,7 +588,7 @@
     <!-- countTo js -->
     <script src="assets/js/jquery.inview.min.js"></script>
     <!-- scrolltopcontrol js -->
-    <script src="assets/js/scrolltopcontrol.js"></script>
+    <!-- <script src="assets/js/scrolltopcontrol.js"></script> -->
     <!-- WOW - Reveal Animations When You Scroll -->
     <script src="assets/js/wow.min.js"></script>
     <!-- scripts js -->
